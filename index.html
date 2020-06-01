@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Калькулятор стоимости заказа</h1>
+        <form class="form" action="">
+            <ul class="form__list">
+                <li class="form__item">
+                    <label for="wood">Материал</label>
+                    <select name="wood" id="wood">
+                        <option >Выберите значение</option>
+                        <option value="oak">Дуб</option>
+                        <option value="pine">Сосна</option>
+                        <option value="ash">Ясень</option>
+                        <option value="larch">Лиственница</option>
+                        <option value="nut">Орех</option>
+                      </select>
+                </li>
+                <li class="form__item">
+                    <label for="amount-of-material">Количесво материала (в куб.м)</label>
+                    <input type="number" name="amount-of-material" id="amount-of-material">
+                </li>
+                <li class="form__item">
+                    <label for="">Краска</label>
+                    <select name="paint" id="paint">
+                        <option >Выберите значение</option>
+                        <option value="paint1">Краска1</option>
+                        <option value="paint2">Краска2</option>
+                        <option value="paint3">Краска3</option>
+                        <option value="paint4">Краска4</option>
+                        <option value="paint5">Краска5</option>
+                      </select>
+                </li>
+                <li class="form__item">
+                    <label for="amount-of-paint">Количесво краски (шт.)</label>
+                    <input type="number" name="amount-of-paint" id="amount-of-paint">
+                </li>
+                <li class="form__item">
+                    <label for="coating">Тип покрытия</label>
+                    <select name="coating" id="coating">
+                        <option >Выберите значение</option>
+                        <option value="wax">Воск</option>
+                        <option value="oil">Масло</option>
+                        <option value="lacquer">Лак</option>
+                      </select>
+                </li>
+                <li class="form__item">
+                    <label for="amount-of-coating">Количесво (шт.)</label>
+                    <input type="number" name="amount-of-coating" id="amount-of-coating">
+                </li>
+                <li class="form__item">
+                    <label for="furniture">Стоимость фурнитуры</label>
+                    <input type="number" id="furniture" value="0">
+                </li>
+                <li class="form__item">
+                    <label for="expendable-material">Стоимость расходных материалов</label>
+                    <input type="number" id="expendable-material" value="0">
+                </li>
+                <li class="number-of-hours">
+                    <label for="">Количество часов работы</label>
+                    <input type="number" id="number-of-hours">
+                </li>
+            </ul>
+            <button class="total-button" type="submit">Посчитать</button>
+            <input type="number" id="total">
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+   <script src="js/form.js"></script>
+  </body>
+</html>

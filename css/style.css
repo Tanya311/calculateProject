@@ -1,0 +1,68 @@
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+input {
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+select {
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}
+
+label {
+    text-transform: uppercase;
+}
+
+button {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(15, 121, 15);
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
